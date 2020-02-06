@@ -1,4 +1,4 @@
-#include <string.h>
+#include "libft.h"
 
 // Move block of memory
 // memmove() is used to copy a block of memory from a location to another. It is declared in string.h

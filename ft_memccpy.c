@@ -1,4 +1,4 @@
-#include <string.h>
+#include "libft.h"
 
 //  The memccpy() function operates as efficiently as possible on memory areas. It does not check for overflow of any receiving memory area. Specifically, memccpy() copies bytes from memory area s2 into s1, stopping after the first occurrence of c has been copied, or after n bytes have been copied, whichever comes first. 
 

@@ -3,7 +3,7 @@
        starting at the location pointed to by s, by writing zeros (bytes
        containing '\0') to that area.*/
 
-#include <string.h>
+#include "libft.h"
 
 void	ft_bzero(char *s,size_t n)
 {
