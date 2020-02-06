@@ -1,21 +1,16 @@
 #include <string.h>
 
-void	*ft_memcpy(void *s1, const void *s2, size_t n)
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned char *src;
-	unsigned char *dest;
 	int i;
-
-	if (s1 == NULL || s2 == NULL)
-		return (NULL);
-	src =(unsigned char *)s1;
-	dest =(unsigned char *)s2;
+	
 	i = 0;
-	while (i <= n)
+	while (i < n)
 	{
-		src[i] = dest[i];
+		(unsigned char *)src[i] = (unsigned char *)dest[i];
 		i++;
-		n--;
 	}
 	return (dest);
-}
+}	
+
+/* the memcpy function copies n characters from the object pointed to by s2 into the object pointed to by s1. It returns a pointer to the destination.  */
