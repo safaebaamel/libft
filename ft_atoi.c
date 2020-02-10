@@ -1,11 +1,12 @@
 #include "libft.h"
 
-int	atoi(char *str)
+int	ft_atoi(char *str)
 {
 	int i;
 	int r;
 	int negative;
 
+	r = 0;
 	negative = 1;
 	i = 0;
 	while (str[i] < 33)
