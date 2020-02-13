@@ -60,5 +60,6 @@ int	ft_strnequ(char const *s1, char const *s2, size_t n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int , char));
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_putendl(char const *s);
+char	*ft_strsub(char const *s, unsigned int start, size_t len);
 
 #endif
