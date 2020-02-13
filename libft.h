@@ -3,6 +3,7 @@
 #define LIBFT_H
 
 #include <string.h>
+#include <stdlib.h>
 
 typedef struct	s_list
 {
@@ -54,6 +55,8 @@ char	*ft_strrchr(char *str, int ch);
 char	*ft_strstr(char *str, char *to_find);
 int	ft_tolower(int c);
 int	ft_toupper(int c);
-
+int	ft_strequ(char const *s1,char const *s2);
+int	ft_strnequ(char const *s1, char const *s2, size_t n);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int , char));
 
 #endif
