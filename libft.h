@@ -62,4 +62,5 @@ void	ft_putendl_fd(char const *s, int fd);
 void	ft_putendl(char const *s);
 char	*ft_strsub(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s);
+char	ft_strcpy(char *dest, char *src);
 #endif
