@@ -1,5 +1,5 @@
 libft
-I worked on this for nights,
-be kind while reading (taking a look on) the code.
-be reminded that copying will never make you smarter.
+I worked on this for nights,<br>
+be kind while reading (taking a look on) the code.<br>
+be reminded that copying will never make you smarter.<br>
 So learn; and create;;
