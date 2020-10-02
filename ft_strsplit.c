@@ -56,7 +56,7 @@ char	*ft_copy(char *str, int n)
 	return (dest);
 }
 
-char	**ft_strplit(char *s,char *c)
+char	**ft_strsplit(char *s,char *c)
 {
 	char **tab;
 	int i;
